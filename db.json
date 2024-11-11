@@ -1,33 +1,83 @@
 {
-  "projects": [
+  "events": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "title": "laster",
+      "genres": [
+        "techno"
+      ],
+      "capacity": 1000,
+      "price": {
+        "regular": 25,
+        "early": 18
+      },
+      "date": "Sat Nov 23 2024 24:00:00 GMT+0100",
+      "location": {
+        "street": "San Bernardo 22",
+        "zipcode": 28002,
+        "city": "Madrid"
+      },
+      "vip": true,
+      "description": "Sumérgete en el corazón de la escena techno en Laster, un lugar donde la música y el ambiente te envuelven en una experiencia única. Con un sonido envolvente y sistemas de iluminación minimalista que sincronizan perfectamente con los beats, esta discoteca atrae a los amantes del techno de todos lados. ",
+      "avalible": true,
+      "minAge": 18,
+      "cover": "https://ugc.production.linktr.ee/ff29ed9f-c8f1-4399-a42a-0bb62ef9437a_artworks-iA8OvNHuRdcRxEvb-zgWAIw-t500x500.jpeg",
+      "gallery": [
+        "https://images.xceed.me/blog/wp-content/uploads/2019/03/29121502/barcelona-best-parties-april-2019-xceed-tickets.png"
+      ]
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "title": "pacha",
+      "genres": [
+        "regueton",
+        "pop"
+      ],
+      "capacity": 1500,
+      "price": {
+        "regular": 25,
+        "early": 15
+      },
+      "date": "Sat Nov 23 2024 24:00:00 GMT+0100",
+      "location": {
+        "street": "tribunal 20",
+        "zipcode": 28022,
+        "city": "Madrid"
+      },
+      "vip": true,
+      "description": "Sumérgete en el corazón de la escena techno en Laster, un lugar donde la música y el ambiente te envuelven en una experiencia única. Con un sonido envolvente y sistemas de iluminación minimalista que sincronizan perfectamente con los beats, esta discoteca atrae a los amantes del techno de todos lados. ",
+      "avalible": true,
+      "minAge": 18,
+      "cover": "https://ugc.production.linktr.ee/ff29ed9f-c8f1-4399-a42a-0bb62ef9437a_artworks-iA8OvNHuRdcRxEvb-zgWAIw-t500x500.jpeg",
+      "gallery": [
+        "https://images.xceed.me/blog/wp-content/uploads/2019/03/29121502/barcelona-best-parties-april-2019-xceed-tickets.png"
+      ]
     }
   ],
-  "tasks": [
+  "attendants": [
     {
       "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
+      "eventId": 1,
+      "name": "jorge",
+      "lastname": "manuel",
+      "birth": "Sat Nov 23 2024 24:00:00 GMT+0100",
+      "email": "jomanu@gmail.com",
+      "phone": "+346574823",
+      "premium": false,
+      "dni": "56341092F",
+      "avatar": "https://static-00.iconduck.com/assets.00/user-icon-1024x1024-unb6q333.png"
     },
     {
       "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
-    },
-    {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "eventId": 2,
+      "name": "mercedes",
+      "lastname": "sarmiento",
+      "birth": "Sat Nov 23 2024 24:00:00 GMT+0100",
+      "email": "merceanu@gmail.com",
+      "phone": "+346674823",
+      "premium": true,
+      "dni": "56341092G",
+      "avatar": "https://static-00.iconduck.com/assets.00/user-icon-1024x1024-unb6q333.png"
     }
   ]
 }
